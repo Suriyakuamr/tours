@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOUR</title>
+    <link rel="stylesheet" href="tour.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li><a href="">HOME</a></li>
+            <li> <a href=""> NEXT TRIPS</a> </li>
+            <li>  <a href="">ABOUT</a></li>
+            <li>  <a href="">PREVIOUS</a></li>
+            <li>  <a href="">CONTACT</a></li>
+             
+        </ul>
+        <img src="ima/icons8-menu-24.png"   class="menu-btn">
+    </nav>
+    <header>
+        <div class="head">
+            <h2>EXPLORE THE WORLD</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL MOVEMENT IN LIFE</h1>
+            <a href="" class="con">LEARN MORE</a>
+        </div>
+    </header>
+    
+    <section class="events">
+        <div class="title">
+            <h1>UPCOMING EVENTS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="ima/il-vagabiondo-8eNt0CQamB0-unsplash.jpg" alt="">
+                <h4>NEW YORK TIMES</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat molestias sed quod accusantium beatae neque voluptatum doloremque dicta, omnis expedita!</p>
+                <a href="" class="con">LEARN MORE</a>
+            </div>
+
+            <div class="col">
+                <img src="ima/priscilla-du-preez-KoF1cXdF9Ws-unsplash.jpg" alt="">
+                <h4>NATURE TRIPS</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat molestias sed quod accusantium beatae neque voluptatum doloremque dicta, omnis expedita!</p>
+                <a href="" class="con">LEARN MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+         <div class="explore-con">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit placeat quae enim voluptas nisi esse necessitatibus non cumque? Perspiciatis unde non perferendis repudiandae! Laudantium?</p>
+            <a href="" class="con">LEARN MORE</a>
+         </div>
+    </section>
+    
+    <section class="tours">
+        <div class="row">
+            <div class="col-con">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor mollitia odio quo magni facere eius neque nostrum! Aliquam esse maiores tenetur laborum, voluptatem modi recusandae veniam est fugit veritatis repellat distinctio, cumque ullam illo quas!</p>
+                <a href="" class="con">LEARN MORE</a>
+            </div>
+            <div class="col1">
+                <img src="ima/pexels-shakir-mohamed-yagoub-7846078.jpg" alt="">
+                <img src="ima/pexels-francesco-ungaro-464440.jpg" alt="">
+                <img src="ima/pexels-jess-loiterton-4319753.jpg" alt="">
+                <img src="ima/pexels-quang-nguyen-vinh-2147993.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>copyrights Acquired @2022 by TRAVELS COMPANY</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn")
+        const navlinks = document.querySelector(".nav-links")
+
+        menuBtn.addEventlistener('click',()=>{
+                 navlinks.classList.toggle("mobile-menu")
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body ,html{
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(ima/pexels-james-wheeler-417074.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.menu-btn{
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.head{
+    margin-bottom: 150px;
+    color: rgba(245, 245, 245, 0.938);
+    text-align: center;
+}
+.head h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: rgba(255, 0, 0, 0.774);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.head h1{
+    font-size: 5vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.con{
+    padding: 8px 15px;
+    background: rgba(255, 0, 0, 0.774);
+    border-radius: 30px;
+    color: rgba(245, 245, 245, 0.938);
+}
+.navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgba(245, 245, 245, 0.938);
+}
+.nav-links a{
+    color: rgba(245, 245, 245, 0.938);
+}
+ul{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin:0 21px;
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgba(119, 0, 255, 0.671);
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.row .col  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col img{
+    width: 325px;
+    height: 260px;
+}
+.events .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    margin: 30px auto;
+    color: rgba(119, 0, 255, 0.671);
+}
+p{
+    padding: 0 40px;
+    color: rgba(0, 0, 0, 0.623);
+}
+.events .con{
+    margin-top: 30px;
+}
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(ima/joshua-earle--87JyMb9ZfU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     display: flex;
+     align-items: center;
+}
+.explore-con{
+    width: 60%;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+}
+.explore-con h1{
+    font-size: 7vmin;
+     
+}
+.explore-con .line{
+    margin-bottom:60px ;
+}
+.explore-con p{
+    color: rgb(22, 19, 19);
+     
+    font-size: 2.7vmin;
+}
+.explore-con .con{
+    margin-top: 40px;
+}
+.col-con{
+    width: 40%;
+}
+.col1{
+    width: 60%;
+}
+.tours .col1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.col1 img{
+    width: 325px;
+    height: 240px;
+    margin: 10px;
+}
+.col-con h1{
+    font-size: 6vmin;
+    color: rgba(119, 0, 255, 0.671);
+}
+.col-con .line{
+    margin-left: -1px;
+}
+.col-con p{
+    margin: 30px auto;
+    padding: 0;
+}
+.col-con .con{
+    margin-left: -15px;
+}
+.footer{
+    width: 100%;
+    min-height: 50px;
+    padding: 20px 80px;
+    margin:0;
+    background-color: rgba(0, 0, 0, 0.089);
+    text-align: center;
+}
+.footer p{
+    color:  rgba(15, 15, 15, 0.767);
+    margin: 20px auto;
+    padding: 20px auto;
+
+}
+@media only screen and (max-width:850px){
+  .navbar{
+    padding: 0;
+  }
+  .logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .nav-links{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    margin-top: -900px;
+    transition: all 0.5s ease;
+  }
+  .mobile-menu{
+    margin-top: 0px;
+    border-bottom-right-radius:30% ;
+  }
+  .nav-links li{
+    margin: 30px auto;
+  }
+  .menu-btn{
+    display: block;
+  }
+  .row{
+    flex-direction: column;
+  }
+  .col img{
+    width: 90%;
+  }
+  .row .col{
+    margin: 20px auto;
+  }
+  .explore-con{
+    width: 100%;
+  }
+  .tours .col-con{
+    width: 100%;
+  }
+  .col1{
+    justify-content: center;
+    align-items: center;
+  }
+  .col1 img{
+    width: 90%;
+  }
+  .footer{
+    padding: 10px;
+  }
+
+}
+img{
+    transition: transform .3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.con:hover{
+     background:  rgba(245, 245, 245, 0.938);
+     color: rgba(255, 0, 0, 0.774);
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.089);
+}
+.nav-links  a:hover{
+    color: rgba(255, 0, 0, 0.774);
+    cursor: pointer;
+}
